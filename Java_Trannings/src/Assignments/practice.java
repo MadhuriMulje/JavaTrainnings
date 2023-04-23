@@ -1,0 +1,43 @@
+package Assignments;
+
+import java.io.IOException;
+
+public class practice {
+	public static void main(String [] args)throws IOException {
+		
+		
+		
+		/*byte b[] = new byte [255];
+		System.out.println("print enter 1st number" );
+		int l= System.in.read(b);
+		//System.out.println(l);
+		
+		
+		byte bt[] = new byte[l-1];
+		System.arraycopy(b,0,bt,0,l-1);
+		//System.out.println(b);
+		String s = new String(bt);
+		//System.out.println( "you enter" + s );
+		//String s = new String(b);
+		//System.out.println( "you enter" + s + "no..");
+		//System.out.println("length is : " +s.length());
+//		int no = Integer.parseInt(s);
+//		System.out.println(no);
+		float no = Float.parseFloat(s);
+		System.out.println(no);
+		
+		
+		*/
+		
+		System.out.println("enter input");
+		int number1 = input.readInt();
+		int number2 = input.readInt();
+		Maths m = new  Maths();
+		m.add(number1,number2);
+		
+		
+		
+		
+	}
+
+}
